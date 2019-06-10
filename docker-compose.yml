@@ -1,5 +1,5 @@
 db:
-  image: Utter-Menace/eramba-db
+  image: utter-menace/eramba-db
   restart: always
   volumes:
     - ~/data/eramba/mysql:/var/lib/mysql
