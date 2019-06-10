@@ -1,5 +1,5 @@
 db:
-  image: utter-menace/eramba-db
+  image: digitorus/eramba-db
   restart: always
   volumes:
     - ~/data/eramba/mysql:/var/lib/mysql
@@ -14,7 +14,7 @@ db:
   #command:
   #  'mysqld --innodb-flush-method=fsync'
 app:
-  image: utter-menace/eramba
+  image: digitorus/eramba
   
   #image: Utter-Menace/eramba
   
