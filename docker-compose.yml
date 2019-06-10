@@ -14,8 +14,10 @@ db:
   #command:
   #  'mysqld --innodb-flush-method=fsync'
 app:
-  image: Utter-Menace/eramba:enterprise 
+  image: utter-menace/eramba
+  
   #image: Utter-Menace/eramba
+  
   restart: always
   volumes:
     - ~/data/eramba/files:/app/app/webroot/files
